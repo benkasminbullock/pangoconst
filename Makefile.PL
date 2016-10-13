@@ -3,13 +3,14 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 my $pm = 'lib/PangoConst.pm';
+my $pod = 'lib/PangoConst.pod';
 my $github = 'github.com/benkasminbullock/pangoconst';
 my $repo = "https://$github";
 
 WriteMakefile (
     NAME => 'PangoConst',
     VERSION_FROM => $pm,
-    ABSTRACT_FROM => $pm,
+    ABSTRACT_FROM => $pod,
     AUTHOR => 'Ben Bullock <bkb@cpan.org>',
     LICENSE => 'perl',
     PREREQ_PM => {
