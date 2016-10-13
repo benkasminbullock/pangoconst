@@ -1,30 +1,6 @@
-=encoding UTF-8
-
-=head1 NAME
-
-PangoConst - the Pango constants without Glib / Gtk2
-
-=head1 SYNOPSIS
-
-    use PangoConst;
-    use Pango;
-    # Don't need Gtk2 at all.
-
-=head1 DESCRIPTION
-
-This module copies the PANGO_* constants from L<Gtk2::Pango> so that
-you can use them without having to import/install the whole of Glib
-and Gtk2.
-
-Don't ask me what the PANGO_* constants are doing in Gtk2 rather than
-in L<Pango> itself. A quote from Gtk2::Pango's documentation: "This
-module shouldn't exist".
-
-=cut
-
 package PangoConst;
  
-our $VERSION = '0.01';
+our $VERSION = '0.02';
  
 our @ISA = qw/Exporter/;
  

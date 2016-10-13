@@ -8,3 +8,5 @@ MYMETA..*
 .*\.bak
 ^PangoConst-[0-9\.]+/$
 ^PangoConst-[0-9\.]+\.tar\.gz$
+^lib/PangoConst\.pod\.tmpl$
+^xt/.*$
