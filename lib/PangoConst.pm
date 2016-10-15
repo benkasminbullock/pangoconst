@@ -1,6 +1,8 @@
 package PangoConst;
- 
-our $VERSION = '0.02';
+
+use strict; # not necessary in practice.
+
+our $VERSION = '0.03';
  
 our @ISA = qw/Exporter/;
  
